@@ -9,11 +9,18 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
         System = built-in java class
         out = member of System, short for "output" 
         ; = marks the end of a java statement (absolutely necessary)
+        Example below:
         */
        System.out.println("Hello Evan!");
        System.out.println("Hello John!");
        System.out.println("WE all love Java!");
-
+       /*
+       Text must go inside double quotes ("")
+       print() method => no new line at the end of output
+       Example below
+        */
+       System.out.print("No new line after this!");
+       System.out.print("I printed on the same line.");
     }
 } // closing bracket of Basics class
 /* Syntax:
