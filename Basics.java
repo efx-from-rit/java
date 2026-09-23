@@ -20,7 +20,14 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
        Example below
         */
        System.out.print("No new line after this!");
-       System.out.print("I printed on the same line.");
+       System.out.print("I printed on the same line." + "\n");
+       /*
+       Can output numbers with the println() method
+       Can perform mathematical calculations in the println() method
+       Example below:
+       */
+       System.out.println("Number 67: " + 67);
+       System.out.println("1 + 1 = " + (1+1));
     }
 } // closing bracket of Basics class
 /* Syntax:
