@@ -3,7 +3,17 @@ package freshman.java;
 public class Basics{ // opening bracket of Basic class; universal convention to start class name with capital letter
     public static void main(String[] args){ // What the JVM [Java Virtual Machine] looks for to begin running code
         System.out.println("Hello World!"); // Prints "Hello World!" to the temrinal/console
-        /* println() = print line, System = built-in java class, out = member of System, short for "output" */
+        /* 
+        println() = print line
+        "ln" = prints a new line for each individual println statement
+        System = built-in java class
+        out = member of System, short for "output" 
+        ; = marks the end of a java statement (absolutely necessary)
+        */
+       System.out.println("Hello Evan!");
+       System.out.println("Hello John!");
+       System.out.println("WE all love Java!");
+
     }
 } // closing bracket of Basics class
 /* Syntax:
