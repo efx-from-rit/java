@@ -1,5 +1,12 @@
 package freshman.java;
 // The purpose of this file is for my own personal basic review of Java principles
+/* Syntax:
+Name of the java file must match the class name
+EX:
+    Class name: Basics
+    File name: Basics.java
+    */
+
 public class Basics{ // opening bracket of Basic class; universal convention to start class name with capital letter
     public static void main(String[] args){ // What the JVM [Java Virtual Machine] looks for to begin running code
         System.out.println("Hello World!"); // Prints "Hello World!" to the temrinal/console
@@ -52,11 +59,10 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
        boolean val = true;
 
        System.out.println(name + " " + num + " " + dec + " " + letter + " " + val);
+       /* 
+       (+) = Concatenation Symbol
+       Adds together numbers (integer, double, float)
+       Joins together Strings
+       */
     }
 } // closing bracket of Basics class
-/* Syntax:
-Name of the java file must match the class name
-EX:
-    Class name: Basics
-    File name: Basics.java
-    */
