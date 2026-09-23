@@ -43,9 +43,10 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
 
        /*
        Types of Variables:
-       String - stores text, surrounded by double quotes
+       String - stores text (sequence of characters), surrounded by double quotes
        int - stores integers (whole numbers, (+) or (-))
-       float - stores floating point numbers, with decimals (EX: 19.99)
+       float - stores floating point numbers, with decimals (EX: 19.99), goes to 6-7 decimal digits
+       double - stores decimal numbers, goes to 16 digits
        char - stores single characters, surrounded by single quotes
        boolean - stores values with two states: true and false
 
@@ -94,10 +95,45 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
         /*
         Primitive Data Types:
         Byte, short, int, long, float, double, boolean, char
+        Usually start with a lowercase letter
+        Can be null
 
         Non-Primitive:
         String, Arrays, Classes
+        Usually start with an uppercase letter
+        Always hold a value
         */
+
+        /*
+        "var" keyword => Java compiler automatically detects the type of variable based on the value you assign to it
+        Only works when you assign a value at the same time
+        Use when dealing with more complex variable types (ArrayLists, HashMap, etc.)
+        Example below:
+        */
+        var number = 5;
+        var text = "Text";
+        System.out.println(text + " " + number);
+
+       /*
+       Casting:
+       Two Types:
+
+       Widening Casting (automatic) - converting smaller type to larger type size
+       No risk of losing information
+       EX: byte => short => char => int => long => float => double
+
+       Narrowing Casting (manual) - converting larger type to smaller type
+       must be done manually by placing the type in parentheses in front of the value
+       May result in data loss without proper parenthesis
+       EX: double => float => long => int => char => short => byte
+
+       Examples Below:
+       */
+        int myInt = 9;
+        double myDouble = myInt; // myInt is now 9.0
+
+        System.out.println(myInt);    // Outputs 9
+        System.out.println(myDouble); // Outputs 9.0
 
     }
 } // closing bracket of Basics class
