@@ -81,5 +81,15 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
         Reserved words (like Java keywords, such as int or boolean) cannot be used as names
        */
 
+        // Constant Example (use "final" keyword when the variable value should NEVER change):
+        final int BIRTH_YEAR = 1990;
+        System.out.println(BIRTH_YEAR);
+
+        // Examples using previous notes:
+        int length = 9;
+        int width = 7;
+        int recArea = length * width;
+        System.out.println("Rectangle Area: " + recArea);
+
     }
 } // closing bracket of Basics class
