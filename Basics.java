@@ -64,5 +64,22 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
        Adds together numbers (integer, double, float)
        Joins together Strings
        */
+
+       int x = 5, y = 6, z = 7;
+       System.out.println(x + y + z);
+       /*
+       Shorter than three individual lines for each variable, comma-separated list
+       */
+
+       /*
+        Rules for naming variableS:
+        Names can contain letters, digits, underscores, and dollar signs
+        Names must begin with a letter
+        Names should start with a lowercase letter, and cannot contain whitespace (camelCase)
+        Names can also begin with $ and _
+        Names are case-sensitive ("myVar" and "myvar" are different variables)
+        Reserved words (like Java keywords, such as int or boolean) cannot be used as names
+       */
+
     }
 } // closing bracket of Basics class
