@@ -28,6 +28,30 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
        */
        System.out.println("Number 67: " + 67);
        System.out.println("1 + 1 = " + (1+1));
+       // Single Line Comment Example
+
+       /*
+       Multi-line Comment Example
+       */
+
+       /*
+       Types of Variables:
+       String - stores text, surrounded by double quotes
+       int - stores integers (whole numbers, (+) or (-))
+       float - stores floating point numbers, with decimals (EX: 19.99)
+       char - stores single characters, surrounded by single quotes
+       boolean - stores values with two states: true and false
+
+       Example of Initialization and Declaration:
+       */
+
+       String name = "Quandale Dingle";
+       int num = 0;
+       double dec = 3.14;
+       char letter = 'A';
+       boolean val = true;
+
+       System.out.println(name + " " + num + " " + dec + " " + letter + " " + val);
     }
 } // closing bracket of Basics class
 /* Syntax:
