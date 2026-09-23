@@ -91,5 +91,13 @@ public class Basics{ // opening bracket of Basic class; universal convention to 
         int recArea = length * width;
         System.out.println("Rectangle Area: " + recArea);
 
+        /*
+        Primitive Data Types:
+        Byte, short, int, long, float, double, boolean, char
+
+        Non-Primitive:
+        String, Arrays, Classes
+        */
+
     }
 } // closing bracket of Basics class
